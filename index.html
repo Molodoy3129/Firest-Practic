@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let name = "Mohmad"; //Тип данных string
+const age = 23; // Type number
+if(age < 15){
+    console.log("Dostup zapreshen")
+}else{
+    console.log("Privet",name)
+}
+ function viewMoney(){
+    console.log("Vot vam 10$")
+}
+viewMoney()
+function getMoney(){
+    return  "Vot vam 10$"
+}
+let aq = getMoney()
+console.log( aq)
+function viewMoney1(cash) {
+    return `Vot vam ${ cash}`
+}
+console.log(viewMoney1(10000))
+
+function kvadrat(a){
+console.log(a * a)
+}
+kvadrat(55)
+
+function maxNum(a,b,c){
+    console.log(Math.max(b,a,c))
+}
+maxNum(400,700,300)
+
+function discraminanta(a,b,c){
+    console.log((b * b) -4*a*c)
+}
+discraminanta(2,4,5)
+
+
+function accept(a,b){
+    if(a % 2 ==0 && b % 2 ==0){
+        console.log(a * b)
+    } else if(a % 2 ==1 & b % 2 ==1){
+        console.log(a + b)
+    } else if(a % 2 ==1 && b % 2 ==0){
+    console.log(a)
+    }else if(a % 2 ==0 && b % 2 ==1){
+        console.log(b)
+    }
+
+ }
+ accept(5,2)
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
